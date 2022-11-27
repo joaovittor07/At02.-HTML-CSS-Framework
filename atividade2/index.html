@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+<body>
+<div class="container">
+    <div class="row">
+
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://www.prog.uema.br/wp-content/uploads/2017/10/Phone-Icon.png" height="100" width="100">
+            <h1>Formulario</h1>
+            <form action="acao.php">
+                <div class="form-group">
+                    <label form="nome"><b>1 - Nome:</b></label>
+                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o seu Nome...">
+                </div>
+                <p>
+                <div class="form-group">
+                    <label form="nome"><b>2 - Sobrenome:</b></label>
+                    <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu Sobrenome...">
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="telefone"><b>3 - Telefone:</b></label>
+                    <input class="form-control" type="tel" name="Telefone" id="Telefone" placeholder="(xx) xxxxx-xxxx">
+                </div>
+                </p>
+                <div class="form-group">
+                    <label for="e-mail"><b>4 - E-mail:</b></label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Digiete o seu E-mail...">
+                </div>
+                </p>
+                <div class="form-group">
+                    <label for="data de Nascimento"><b>5 - Data de Nascimento:</b></label>
+                    <input class="form-control" type="date" name="date" id="date">
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="Idade"><b>6 - Idade:</b></label>
+                    <input class="form-control" type="number" name="Idade" id="Idade" placeholder="Informe a sua Idade...">
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="Idade"><b>7 - Parente:</b></label><br>
+                    <input type="radio" id="tipo1" name="tipo" value="1">Sim
+                    <input type="radio" id="tipo2" name="tipo" value="2">Não
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="Contato"><b>8 - Origem do Contato:</b></label>
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option value="1">Escola</option>
+                        <option value="2">Trabalho</option>
+                        <option value="3">Conhecido</option>
+                        <option value="4">Apresentado</option>
+                    </select>
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="Foto"><b>9 - Foto do Contato:</b></label>
+                    <input class="form-control" type="file" name="file" id="file">
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="Sexo"><b>10 - Sexo:</b></label><br>
+                    <input type="radio" id="tipo1" name="tipo" value="1">Masculino
+                    <input type="radio" id="tipo2" name="tipo" value="2">Feminino
+                </div>
+                </p>
+                <div class="form-group">
+                    <label form="nome"><b>11 - Redes Socia:</b></label>
+                    <input class="form-control" type="text" id="nome" name="nome" value="" placeholder="@...">
+                </div>
+                <p>
+                <!--<div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Digete a Mensagem..."></textarea>
+                </div>-->                
+                <div class="form-group text-center">
+                    <button type="button" class="btn btn-primary">SALVAR</button>
+                </div>
+                <div class="alert alert-danger d-none">
+                    Preencha o campo <samp id="campo-erro"></samp>! 
+                  </div>
+            </form>
+            </div>
+        </div>
+            <div>
+                <p> 
+            </div>
+        <div>
+            <button>Enviar</button>
+        </div>
+
+</div>
+<scriptx src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<SCript src="js/popper.min.js"></SCript>
+<script src="js/formulario.js"></script>
+
+</body>
+</html>
